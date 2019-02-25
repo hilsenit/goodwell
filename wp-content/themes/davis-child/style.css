@@ -1,0 +1,545 @@
+/*
+Theme Name: Davis Child
+Template: davis
+Author: Anders Norén
+Author URI: http://www.andersnoren.se
+Description: Davis is a teeny-tiny WordPress theme that can be used a starter theme or a *really* lightweight blog theme. It consists of just three PHP files and weighs in at 60 KB, excluding screenshot.png. It features the aside post format, a Dark Mode style option, hope-featu#50d3ff images and a responsive design. Demo: http://www.andersnoren.se/themes/davis/
+Tags: blog,one-column,custom-menu,hope-featu#50d3ff-images,post-formats,threaded-comments,translation-ready
+Version: 1.12.1531222331
+Updated: 2018-07-10 13:32:11
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Nunito|Alegreya');
+
+/** FONTS **/
+
+p, a, label {
+  font-family: 'Nunito', serif;
+}
+h1,h2,h3,h4,h5,h6,h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  font-family: "Nunito", serif;
+}
+
+/** END FOONTS **/
+a:visited {
+	color: black;
+}
+/* REMOVE LITTE GRAPHIC */
+.post:before, .comments:before, .comment-respond:before, .comments .comment-respond:after, .pagination:before, footer:before {
+  display: none!important;
+}
+
+*:focus {outline:none}
+
+body { /* Sticky footer */
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; 
+}
+
+footer {
+  color: black;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+label {
+  font-style: normal;
+}
+
+
+
+.black-background {
+  background-color: black;
+  color: white;
+}
+.black-text {
+  color: black!important;
+}
+.blue-text {
+  color: #50d3ff;
+}
+.blue-background {
+  background-color: #50d3ff;
+  color: white;
+}
+
+.contact-form {
+    padding: 50px 35px;
+}
+.contact-container .column {
+  min-height: 100vh;
+}
+.contact-container .columns {
+}
+
+.table.table-striped tbody tr {
+    background: white;
+}
+
+.def-pad-top {
+  padding-top: 29px;
+}
+.def-pad-top-bot {
+  padding: 29px 0px;
+}
+.default-padding {
+  padding: 29px 35px;
+}
+.default-margin {
+  padding: 29px 35px;
+}
+
+
+.black-text {
+  color: black!important;
+}
+
+footer p a {
+  color: black!important;
+}
+
+.container { /* Sticky footer */
+  flex: 1;
+}
+.contact-container {
+  padding-bottom: 0px;
+}
+
+.frontpage-title {
+  font-size: 35px;
+}
+
+.c-pointer {
+  cursor: pointer;
+}
+
+p {
+  font-size: 0.85em;
+  line-height: 22.4px;
+}
+.columns {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.con-not-full-image {
+  padding-top: 40px!important;
+}
+.container {
+  max-width: 1350px!important;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.menu li a {
+  font-size: 1.1em; }
+
+.wrapper {
+  max-width: 100%;
+  width: 100%;
+}
+
+.home header {
+  margin: 0 auto 5px auto;
+}
+
+header {
+  position: fixed;
+  z-index: 9999999;
+  margin: 0 auto 5px auto;
+  width: 100%;
+  display: flex;
+}
+.modal-overlay {
+  cursor: pointer!important;
+}
+.menu-menu-container {
+  	display: inline-block;
+  	margin: 0 auto;
+	width: 100%;
+	background-color: #50d3ff;	
+}
+.menu {
+  border-radius: 0;
+  background-color: transparent;
+  transform: none;
+  margin: 0 0 0;
+  box-shadow: none;
+}
+.menu .menu-item {
+  margin-top: 0!important;
+  padding: 0;
+}
+
+.menu .menu-item a, .slide-btn, .wpcf7-form input[type=submit] {
+	background-color: #50d3ff!important;
+	border-radius: 0!important;
+	padding: 12px 20px 8px 20px;
+	color: white;
+	font-family: "Nunito", serif;
+	text-transform: uppercase;
+	font-size: 0.6em!important;
+	letter-spacing: 2px;
+}
+.title {
+	padding: 12px 20px 8px 20px;
+	text-transform: uppercase;
+	font-size: 0.6em!important;
+	letter-spacing: 2px;
+	color: black;
+}
+.menu .menu-item a:hover, .slide-btn:hover, .title:hover, .wpcf7-form input[type=submit]:hover {
+	text-decoration: none!important;
+	background-color: white;
+}
+
+.menu .menu-item>a.active, .menu .menu-item>a:active {
+    color: black;
+}
+
+.menu .menu-item>a:focus, .menu .menu-item>a:hover {
+    color: black;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+.current-menu-item a {
+	color: black!important;
+}
+
+.hope-featu#50d3ff-image-wrap {
+  transition: opacity .3s ease-out;
+  -webkit-transition: opacity .3s ease-out;
+  -moz-transition: opacity .3s ease-out;
+  -o-transition: opacity .3s ease-out;
+}
+
+.slide-thumbs {
+  cursor: pointer;
+}
+.slick-slider {
+  max-height: 100vh!important;
+  overflow: hidden;
+}
+.slider-nav .slick-current {
+  opacity: 0.5;
+}
+.home .menu-item-77 {
+  display: none;
+}
+
+.slider-nav .slide-thumbs {
+  padding: 0rem;
+}
+
+.hope-featu#50d3ff-image-wrap:hover {
+  opacity: 0.5;
+}
+
+.large-title {
+  margin: 20px 0px 10px 0px;
+}
+
+.hope-featu#50d3ff-image .title, .hope-featu#50d3ff-image-wrap .title {
+  padding: 0 3px;
+  font-size: 1em;
+  text-align: center;
+}
+.menu {
+  padding: 0;
+}
+
+/* .menu-item:first-child { */
+/*   border-bottom-left-radius: 10px; */
+/* } */
+/* .menu-item:last-child { */
+/*   border-bottom-right-radius: 10px; */ /* } */
+
+
+.toggle-menu {
+  margin: 0px;
+  padding-bottom: 16px;
+  padding-top: 19px;
+  cursor: pointer;
+}
+
+/* SINGLE CAR */
+
+.hope-car-sidebar-btn {
+    width: 100%;
+    background-color: #50d3ff;
+    border-color: white;
+    color: white;
+}
+
+.hope-car-sidebar-btn:hover {
+  background-color: white;
+  border-color: white;
+  color: black;
+}
+
+.hope-car-image {
+  position: relative;
+}
+.slick-next, .slick-prev {
+  position: absolute;
+  top: 50%;
+  margin: 0 17px;
+  z-index: 999999;
+  background-color:transparent;
+  color: transparent;
+}
+.slick-next {
+  right: 0;
+}
+.slick-prev:before {
+    cursor: pointer;
+    content: "\00ab";
+    color: white;
+    font-size: 3rem;
+}
+.slick-next:after {
+    cursor: pointer;
+    content: "\00bb";
+    color: white;
+    font-size: 3rem;
+}
+.slick-dots {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.slick-dots li {
+  display: inline-block;
+  margin: 10px;
+}
+.slick-dots li button {
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 100%;
+  height: 16px;
+  width: 16px;
+  background-color: transparent;
+  color: transparent;
+}
+.slick-dots .slick-active button {
+  background-color: white;
+}
+
+.image-title, .slide-title {
+  position: absolute;
+  top: 81px;
+  font-size: 1.2em;
+  left: 40px;
+  min-width: 60%;
+  background-color: white;
+  padding: 6px 10px 3px 10px;
+  z-index: 999;
+}
+.slide-sale {
+  font-size: 0.8em;
+  top: 50px;
+}
+
+.slide-btn {
+  min-width: 0;
+  top: 120px;
+	color: white!important;
+}
+
+.hope-car-sidebar {
+  color: black;
+  background-color: #50d3ff;
+  padding: 29px 35px;
+}
+.hope-car-content {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.white-text {
+  color: white!important;
+}
+h1.car-title {
+    color: #50d3ff;
+    font-size: 2.0em;
+    text-align: center;
+    padding-top: 17px;
+    padding-bottom: 12px;
+}
+.hope-car-contact {
+  padding: 29px 35px;
+  background-color: #50d3ff;
+}
+.hope-car-sidebar-extra {
+  padding-bottom: 10px;
+}
+
+/* NAVIGATION */
+
+.navigation {
+  width: 100%;
+}
+.nav-links {
+    display: flex;
+    line-height: 47px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+.nav-previous, .nav-next {
+  padding: 0 10px;
+}
+
+.hope-nav-title {
+}
+.hope-nav-title a {
+  font-size: 18px;
+  color: black;
+}
+
+/* ONE PAGE */
+
+.hope-page-text-wrapper{
+  margin-top: 40px!important;
+}
+.hope-page-text {
+  font-size: 18px;
+  padding: 29px 35px;
+  line-height: 22.4px;
+  background-color: #50d3ff;
+  color: white;
+  margin-bottom: 10px;
+}
+
+
+/* FOOTER */
+.footer-logo {
+  height: 84px;
+}
+.social-properties li {
+    display: inline-block;
+    height: 26px;
+    margin-left: 10px;
+    width: 26px;
+}
+footer .social-properties {
+    text-align: center;
+    margin-top: 1em;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+footer .symbolmark-inner {
+    display: block;
+}
+.social-properties li:first-child, .social-properties.responsive li[data-network="facebook"] {
+    margin-left: 0;
+}
+
+.social-properties li {
+    display: inline-block;
+    height: 26px;
+    margin-left: 10px;
+    width: 26px;
+}
+.social-properties a, .social-properties a:visited, [data-hover-enable="true"] .social-properties a:hover, .social-properties a:active {
+    background-color: rgba(255, 255, 255, 1.0);
+    border-radius: 100%;
+    cursor: pointer;
+    display: block;
+    height: 100%;
+}
+dl dt {
+    font-weight: 100;
+    color: white;
+}
+dl dd a {
+  color: white!important;
+}
+
+@media screen and (max-width: 620px) {
+  .slider-nav {
+    display: none; 
+  }
+  header {
+    position: relative;
+    flex-wrap: wrap; 
+    display: contents;
+  }
+  .menu-menu-container {
+    width: 100%;
+  }
+  .container {
+    padding-top: 0px;
+  }
+  .toggle-menu {
+    width: 100%;
+    padding-bottom: 17px;
+    padding-top: 22px;
+  }
+  .contact-container .column {
+    padding-top: 0px!important;
+    min-height: auto;
+  }
+}
+@media (min-width: 620px) {
+  .menu > li + li {
+      margin-left: 0px;
+  }
+}
+
+
+
+/* CONTACT 7 FORM DESIGN */
+/********** Contact Form 7 Style *************/
+.wpcf7 label {
+  font-style: normal;
+  color: black;
+}
+.wpcf7-form {
+  padding: 20px 0px; 			/* %, px or em - 1st = top & bottom padding 2nd = left & right padding */
+  border:px solid #f6efdf; 		/* border-width, border-style, border color */
+  margin: 0px 0px 0px 0px; 	        /* top, right, bottom & left */
+  border-radius:10px; 			/* Makes the edges rounded */
+  color: #ffffff; 			/* Add a Hex Color */
+  width: 100%; 				/* %, px or em */
+}
+
+/* border-styles: none, dotted, dashed, double, groove, ridge, inset, outset */
+
+.wpcf7-form input {
+  background:#f6f6f6;			/* Add a Hex Color */
+  padding:5px 7px;			/* %, px or em - 1st = top & bottom padding 2nd = left & right padding. */
+  border:0px solid #ffffff;  	 	/* border-width, border-style, border color */
+  margin:0px;				/* If there is only one value = same margin for top, right, bottom & left */
+  border-radius:0px;          		/* Makes the edges rounded */
+}
+.wpcf7-form textarea {
+  background:#f6f6f6;			/* Add a Hex Color */
+  border-radius:0px;			/* Makes the edges rounded */
+  width: 100%; 				/* %, px or em */
+}
+.wpcf7-form p { 		
+  color:#33CC33;				/* This edit the font color of form titles */
+  margin-top:0px;				/* %, px or em */
+  margin-bottom:0px;                      /* %, px or em */
+}
+.wpcf7-form .wpcf7-submit {     
+  background:#f6f6f6;			/* This edit the button colour */
+  cursor:pointer;
+  padding-left:25px;			/* Changes the button Size. */
+  padding-right:25px;			/* Changes the button Size. */  
+  color:#000000;				/* This edit the button text colour */
+}
+
+/* Button Hover Color */
+.wpcf7-form input[type=submit] {
+
+}
+.wpcf7-form input[type=submit]:hover {
+  color: black!important; 		/* Button Hover Text Color */
+}

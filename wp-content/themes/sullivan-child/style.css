@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito|Alegreya');
+/* ALL */
+/* BASIC */
+
+
+/* Remove symbols in header for login in and cart */
+.header-account, .header-cart, .archive-header-tools, .header-inner {
+  display: none;
+}
+#site-content {
+  padding: 29px 0;
+}
+/* COLORS */
+footer, .site-nav {
+  background-color: #50d3ff !important;
+  color: white !important;
+}
+/* FONTS */
+p, a, label {
+  font-family: 'Nunito', serif;
+}
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  font-family: "Nunito", serif;
+}
+.site-nav a {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.tabs > li a {
+  font-size: 14px !important;
+  text-transform: uppercase;
+}
+/* MIXINS */
+
+/* STICKY FOOTER */
+html, body {
+  height: 100%!important;
+}
+body {
+  display: flex!important;
+  flex-direction: column!important;
+}
+.body-inner {
+  flex: 1 0 auto!important;
+}
+footer {
+  flex-shrink: 0!important;
+}
+/* sticky footer end */
+/* SINGLE CAR */
+
+/* RACE RUNNED */
+
+.it-race-runned {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.it-show-interest {
+    margin-top: 44px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.it-button {
+  /* background-color: #50d3ff !important; */
+  color: white;
+}
+
+/* TABS */
+.shop_attributes tr {
+    display: flex;
+    flex-wrap: wrap;
+}
+.shop_attributes tr th {
+    width: 100%;
+}
+.product-upper-wrapper {
+  flex-wrap: wrap;
+  padding-bottom: 0;
+}
+.product-upper-wrapper .woocommerce-product-gallery {
+  width: 100%;
+}
+.product-upper-wrapper .flex-viewport {
+  height: 600px;
+}
+.product-upper-wrapper .woocommerce-product-gallery__wrapper {
+  width: 100%;
+}
+.wc-tabs .active a::after {
+  background: url(../svg/chevron-right-black.svg) no-repeat center;
+  content: "";
+  display: block;
+  height: 20px;
+  position: absolute;
+  top: calc(50% - 10px);
+  right: 10px;
+  transition: all 0.15s linear;
+  width: 20px;
+}
+.woocommerce-Tabs-panel h2 {
+  display: none !important;
+}
+.single-product .summary {
+  margin: 0;
+  width: auto;
+  display: block;
+}
+.woocommerce-product-gallery .flex-control-nav {
+  position: relative;
+}
+.flex-control-nav {
+  display: flex;
+  bottom: 56px;
+  left: 0;
+  justify-content: center;
+}
+/* Hide menu home button on frontpage */
+.home #menu-item-77 {
+  display: none;
+}
+.site-nav a {
+  padding: 5px 25px;
+}
+.site-header .section-inner {
+  padding: 0px 0;
+}
+
+.text-center {
+  text-align: center!important;
+}
+
+/* SOCIAL FOOTER */
+
+/* FOOTER */
+.footer-logo {
+  height: 84px;
+}
+.social-properties li {
+    display: inline-block;
+    height: 26px;
+    margin-left: 10px;
+    width: 26px;
+}
+footer .social-properties {
+    text-align: center;
+    padding-top: 1em;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+footer .symbolmark-inner {
+    display: block;
+}
+.social-properties li:first-child, .social-properties.responsive li[data-network="facebook"] {
+    margin-left: 0;
+}
+
+.social-properties li {
+    display: inline-block;
+    height: 26px;
+    margin-left: 10px;
+    width: 26px;
+}
+.social-properties a, .social-properties a:visited, [data-hover-enable="true"] .social-properties a:hover, .social-properties a:active {
+    background-color: rgba(255, 255, 255, 1.0);
+    border-radius: 100%;
+    cursor: pointer;
+    display: block;
+    height: 100%;
+}
+dl dt {
+    font-weight: 100;
+    color: white;
+}
+dl dd a {
+  color: white!important;
+}
+
+@media (max-width: 1036px) {
+}
+
+@media (max-width: 750px) {
+  /* Thumbnails not over image */
+  .product_title {
+    margin-top: 20px;
+  }
+
+  .woocommerce-product-gallery .flex-control-nav {
+      position: static;
+  }
+}
+
+@media (max-width: 500px) {
+}

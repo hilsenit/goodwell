@@ -1,0 +1,646 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sullivan\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-26 09:17+0000\n"
+"PO-Revision-Date: 2018-12-30 16:15+0000\n"
+"Last-Translator: Peter Højlund <pianopha@gmail.com>\n"
+"Language-Team: Dansk\n"
+"Language: da-DK\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: ../sullivan/functions-woocommerce.php:693
+msgid "Account details"
+msgstr "Din konto"
+
+#: ../sullivan/widgets/contact-information.php:89
+msgid "Address"
+msgstr "Adresse"
+
+#: ../sullivan/functions-woocommerce.php:697
+msgid "Addresses"
+msgstr "Adresse"
+
+#: ../sullivan/content-post.php:173
+msgid "Administration"
+msgstr ""
+
+#: ../sullivan/widgets/contact-information.php:8
+msgid ""
+"Allows you to display contact information. Built with the \"Footer #1\" "
+"widget area in mind."
+msgstr ""
+
+#. Author of the theme
+#: ../sullivan/footer.php:51
+msgid "Anders Norén"
+msgstr ""
+
+#: ../sullivan/functions.php:743 ../sullivan/functions.php:776
+msgid "Archives"
+msgstr ""
+
+#. If there are characters in your language that are not
+#. supported by Archivo, translate this to 'off'. Do not translate
+#. into your own language.
+#: ../sullivan/functions.php:86
+msgctxt "Archivo font: on or off"
+msgid "on"
+msgstr ""
+
+#: ../sullivan/functions.php:765 ../sullivan/functions.php:1454 
+#: ../sullivan/functions.php:1473
+msgid "Author"
+msgstr ""
+
+#: ../sullivan/functions-woocommerce.php:763
+msgid "Basket"
+msgstr "Kurv"
+
+#: ../sullivan/content-post.php:128
+msgid "By"
+msgstr "Af"
+
+#: ../sullivan/functions-woocommerce.php:365
+msgid "By average rating"
+msgstr ""
+
+#: ../sullivan/functions-woocommerce.php:366
+msgid "By newness"
+msgstr "Nyeste"
+
+#: ../sullivan/functions-woocommerce.php:364
+msgid "By popularity"
+msgstr "Mest populære"
+
+#: ../sullivan/functions.php:1474
+msgid "Categories"
+msgstr ""
+
+#: ../sullivan/content-post.php:228
+msgid "Categories:"
+msgstr ""
+
+#: ../sullivan/functions.php:761
+msgid "Category"
+msgstr "Kategori"
+
+#: ../sullivan/functions.php:1455 ../sullivan/functions.php:1475
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: ../sullivan/comments.php:38
+msgid "Comments closed"
+msgstr "Kommentarer lukket"
+
+#: ../sullivan/widgets/contact-information.php:10
+msgid "Contact Information"
+msgstr "Kontaktinformation"
+
+#. Name of the template
+msgid "Cover Page"
+msgstr ""
+
+#: ../sullivan/functions-woocommerce.php:196
+msgid "Create account"
+msgstr "Opret bruger"
+
+#: ../sullivan/functions.php:1318
+msgid "Customize the theme settings for Sullivan."
+msgstr ""
+
+#: ../sullivan/functions.php:771
+msgid "Day"
+msgstr "Dag"
+
+#: ../sullivan/functions-woocommerce.php:363
+msgid "Default sorting"
+msgstr "Standard sortering"
+
+#: ../sullivan/widgets/recent-posts.php:128 
+#: ../sullivan/widgets/recent-comments.php:123
+msgid "Defaults to 5 if empty"
+msgstr ""
+
+#: ../sullivan/content-post.php:156
+msgid "Discussion"
+msgstr "Diskussion"
+
+#: ../sullivan/widgets/recent-posts.php:8
+msgid "Displays recent blog entries."
+msgstr ""
+
+#: ../sullivan/widgets/recent-comments.php:8
+msgid "Displays recent comments with user avatars."
+msgstr ""
+
+#: ../sullivan/functions.php:1456 ../sullivan/functions.php:1476
+msgid "Edit Link (for logged in users)"
+msgstr ""
+
+#: ../sullivan/content-post.php:49 ../sullivan/content-post.php:178 
+#: ../sullivan/content-post.php:180
+msgid "Edit post"
+msgstr ""
+
+#: ../sullivan/404.php:11
+msgid "Error 404"
+msgstr "Fejl 404"
+
+#: ../sullivan/functions.php:1376
+msgid "Fallback image"
+msgstr ""
+
+#: ../sullivan/content-post.php:165
+msgid "Featured"
+msgstr ""
+
+#: ../sullivan/functions.php:313
+msgid "Footer #1"
+msgstr ""
+
+#: ../sullivan/functions.php:320
+msgid "Footer #2"
+msgstr ""
+
+#: ../sullivan/functions.php:327
+msgid "Footer #3"
+msgstr ""
+
+#: ../sullivan/functions.php:334
+msgid "Footer #4"
+msgstr ""
+
+#. Name of the template
+msgid "Full Width Template"
+msgstr ""
+
+#: ../sullivan/functions-woocommerce.php:531
+msgid "Hide account pages"
+msgstr "Skjul konto sider"
+
+#. Author URI of the theme
+msgid "http://www.andersnoren.se"
+msgstr ""
+
+#: ../sullivan/functions.php:1428
+msgid ""
+"If you do not select any post types, search results will always display as "
+"\"No results found\"."
+msgstr ""
+
+#: ../sullivan/functions.php:1332
+msgid ""
+"Keep the site navigation stuck to the top of the window when the visitor has "
+"scrolled past it."
+msgstr ""
+
+#: ../sullivan/functions.php:797 ../sullivan/header.php:23
+msgctxt "label"
+msgid "Search for:"
+msgstr "Søg efter: "
+
+#: ../sullivan/functions-woocommerce.php:190
+msgid "Lost password"
+msgstr "Mistet kodeord?"
+
+#: ../sullivan/functions.php:51
+msgid "Mobile Menu"
+msgstr "Mobilmenu"
+
+#: ../sullivan/functions.php:769
+msgid "Month"
+msgstr "Måned"
+
+#: ../sullivan/functions-woocommerce.php:654 ../sullivan/header.php:96
+msgid "My account"
+msgstr "Min konto"
+
+#: ../sullivan/pagination.php:60 ../sullivan/functions-woocommerce.php:271
+msgid "Next"
+msgstr "Næste"
+
+#: ../sullivan/content-post.php:249
+msgid "Next post"
+msgstr "Næste indlæg"
+
+#: ../sullivan/search.php:29
+msgid "No results found"
+msgstr "Ingen resultater blev fundet"
+
+#: ../sullivan/widgets/recent-comments.php:121
+msgid "Number of comments to display"
+msgstr ""
+
+#: ../sullivan/widgets/recent-posts.php:126
+msgid "Number of posts to display"
+msgstr ""
+
+#. %d: total results
+#. 1: first result 2: last result 3: total results
+#: ../sullivan/woocommerce/loop/result-count.php:39 
+#: ../sullivan/woocommerce/loop/result-count.php:42
+#, php-format
+msgid "one result"
+msgid_plural "results %1$d-%2$d of %3$d"
+msgstr[0] "en vare"
+msgstr[1] " %1$d-%2$d af %3$d varer"
+
+#: ../sullivan/functions-woocommerce.php:713
+msgid "Orders"
+msgstr "Ordrer"
+
+#: ../sullivan/widgets/contact-information.php:94
+msgid "Phone number"
+msgstr "Telefonnummer"
+
+#: ../sullivan/functions.php:1457 ../sullivan/functions.php:1477
+msgid "Post date"
+msgstr "Dato"
+
+#: ../sullivan/functions.php:720
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr ""
+
+#: ../sullivan/functions.php:734
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr ""
+
+#: ../sullivan/functions.php:736
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr ""
+
+#: ../sullivan/functions.php:722
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr ""
+
+#: ../sullivan/functions.php:724
+msgctxt "post format archive title"
+msgid "Images"
+msgstr ""
+
+#: ../sullivan/functions.php:730
+msgctxt "post format archive title"
+msgid "Links"
+msgstr ""
+
+#: ../sullivan/functions.php:728
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Citater"
+
+#: ../sullivan/functions.php:732
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr ""
+
+#: ../sullivan/functions.php:726
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr ""
+
+#: ../sullivan/functions.php:1470
+msgid "Post meta bottom displays:"
+msgstr ""
+
+#: ../sullivan/functions.php:1451
+msgid "Post meta top displays:"
+msgstr ""
+
+#: ../sullivan/functions.php:1427
+msgid "Post types to include in search:"
+msgstr ""
+
+#: ../sullivan/content-post.php:127
+msgid "Posted by"
+msgstr "Udgivet af"
+
+#: ../sullivan/content-post.php:138
+msgid "Posted in"
+msgstr "Udgivet i"
+
+#: ../sullivan/pagination.php:12 ../sullivan/functions-woocommerce.php:270
+msgid "Previous"
+msgstr "Forrige"
+
+#: ../sullivan/content-post.php:262
+msgid "Previous post"
+msgstr "Forrige indlæg"
+
+#: ../sullivan/functions-woocommerce.php:368
+msgid "Price: high to low"
+msgstr "Pris: høj til lav"
+
+#: ../sullivan/functions-woocommerce.php:367
+msgid "Price: low to high"
+msgstr "Pris: lav til høj"
+
+#: ../sullivan/functions.php:50
+msgid "Primary Menu"
+msgstr ""
+
+#: ../sullivan/functions.php:573
+msgid "Read More"
+msgstr "Læs mere"
+
+#: ../sullivan/widgets/recent-comments.php:10
+msgid "Recent Comments"
+msgstr "Nyeste kommentarer"
+
+#: ../sullivan/widgets/recent-posts.php:10
+msgid "Recent Posts"
+msgstr "Nyeste indlæg"
+
+#: ../sullivan/header.php:89
+msgid "Register"
+msgstr "Registrer"
+
+#: ../sullivan/related-posts.php:61
+msgid "Related Posts"
+msgstr "Relaterede indlæg"
+
+#: ../sullivan/functions.php:1347
+msgid "Retina logo"
+msgstr ""
+
+#: ../sullivan/functions.php:1348
+msgid ""
+"Scales the logo to half its uploaded size, making it sharp on high-res "
+"screens."
+msgstr ""
+
+#: ../sullivan/functions.php:799 ../sullivan/header.php:25
+msgid "Search"
+msgstr "Søg"
+
+#: ../sullivan/functions-woocommerce.php:530
+msgid "Show account pages"
+msgstr "Vis min konto"
+
+#: ../sullivan/widgets/recent-posts.php:80
+msgid "Show All"
+msgstr "Vis alle"
+
+#: ../sullivan/woocommerce/loop/result-count.php:33
+msgid "Showing"
+msgstr "Viser"
+
+#: ../sullivan/functions.php:1452
+msgid "Shown above the post titles in the blog."
+msgstr ""
+
+#: ../sullivan/functions.php:1471
+msgid "Shown next to the post content in the blog."
+msgstr ""
+
+#: ../sullivan/functions.php:346
+msgid "Sidebar"
+msgstr ""
+
+#: ../sullivan/functions.php:341
+msgid "Sidebar Blog"
+msgstr ""
+
+#: ../sullivan/functions.php:361
+msgid "Sidebar Shop"
+msgstr ""
+
+#: ../sullivan/functions-woocommerce.php:654 ../sullivan/header.php:86
+msgid "Sign in"
+msgstr "Log ind"
+
+#: ../sullivan/functions-woocommerce.php:730 ../sullivan/header.php:97
+msgid "Sign out"
+msgstr "Log ud"
+
+#: ../sullivan/functions.php:52
+msgid "Social Menu"
+msgstr ""
+
+#: ../sullivan/content-post.php:44
+msgid "Sticky"
+msgstr ""
+
+#: ../sullivan/functions.php:1331
+msgid "Sticky navigation"
+msgstr ""
+
+#: ../sullivan/content-post.php:166
+msgid "Sticky post"
+msgstr ""
+
+#: ../sullivan/functions.php:1458 ../sullivan/functions.php:1478
+msgid "Sticky status"
+msgstr ""
+
+#. Name of the theme
+msgid "Sullivan Child"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Sullivan is a WordPress theme built with WooCommerce powered stores in mind, "
+"but it works just as well for regular business websites or blogs. It "
+"features a beautiful design with custom styling for all WooCommerce pages "
+"and features, a search field displaying instant results, dropdown modals for "
+"both My Account and the basket in the header, full-width slideshows on both "
+"the blog page and the store page, a slideshow for posts set to the gallery "
+"post format, custom widgets, social menus, and much more. Note: In order to "
+"get the slideshow functionality, you also need to install the Sullivan "
+"Compatibility Plugin, available on the WordPress.org plugin directory. Demo: "
+"http://www.andersnoren.se/themes/sullivan/"
+msgstr ""
+
+#: ../sullivan/functions.php:763
+msgid "Tag"
+msgstr ""
+
+#: ../sullivan/content-post.php:147
+msgid "Tagged with"
+msgstr ""
+
+#: ../sullivan/functions.php:1479
+msgid "Tags"
+msgstr ""
+
+#: ../sullivan/content-post.php:221
+msgid "Tags:"
+msgstr ""
+
+#: ../sullivan/404.php:13
+msgid ""
+"The page you're looking for could not be found. It may have been removed, "
+"renamed, or maybe it didn't exist in the first place. You can return to the "
+"home page through the link."
+msgstr ""
+
+#: ../sullivan/functions.php:1377
+msgid ""
+"The selected image will be used when a post or product is missing a featured "
+"image. A default fallback image included in the theme will be used if no "
+"image is set."
+msgstr ""
+
+#: ../sullivan/functions.php:1315
+msgid "Theme Options"
+msgstr ""
+
+#: ../sullivan/widgets/recent-posts.php:121 
+#: ../sullivan/widgets/contact-information.php:84 
+#: ../sullivan/widgets/recent-comments.php:116
+msgid "Title"
+msgstr "Titel"
+
+#: ../sullivan/404.php:15
+msgid "To the home page"
+msgstr ""
+
+#. $s = name of the theme developer
+#: ../sullivan/footer.php:51
+#, php-format
+msgctxt "Translators: $s = name of the theme developer"
+msgid "Theme by %s"
+msgstr ""
+
+#. $s = the number of posts found
+#: ../sullivan/functions.php:920
+#, php-format
+msgctxt "Translators: $s = the number of posts found"
+msgid "Show %s result"
+msgid_plural "Show all %s results"
+msgstr[0] "Vis %s resultat"
+msgstr[1] "Vis alle %s resultater"
+
+#. $s = the text "WordPress.org plugin directory" wrapped in a link to the plugin directory
+#: ../sullivan/functions.php:206
+#, php-format
+msgctxt ""
+"Translators: $s = the text \"WordPress.org plugin directory\" wrapped in a "
+"link to the plugin directory"
+msgid ""
+"Thanks for installing Sullivan! In order to activate the slideshow "
+"functionality, you need to install the Sullivan Compatibility Plugin from "
+"the %s."
+msgstr ""
+
+#. %1$s = post title, %2$s = post date
+#: ../sullivan/widgets/recent-comments.php:60
+#, php-format
+msgctxt "Translators: %1$s = post title, %2$s = post date"
+msgid "Comment to %1$s, posted %2$s"
+msgstr "Kommentar til %1$s, udgivet %2$s"
+
+#. %s = author name with link
+#: ../sullivan/content-post.php:34
+#, php-format
+msgctxt "Translators: %s = author name with link"
+msgid "By %s"
+msgstr "Af %s"
+
+#. %s = the number of comments
+#: ../sullivan/comments.php:9
+#, php-format
+msgctxt "Translators: %s = the number of comments"
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] "%s Kommentar"
+msgstr[1] "%s Kommentarer"
+
+#. %s = the number of reviews
+#: ../sullivan/woocommerce/single-product/rating.php:35
+#, php-format
+msgctxt "Translators: %s = the number of reviews"
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] "%s anmeldelse"
+msgstr[1] "%s anmeldelser"
+
+#. %s = the number of search results
+#: ../sullivan/search.php:21
+#, php-format
+msgctxt "Translators: %s = the number of search results"
+msgid "We found %s result matching your search."
+msgid_plural "We found %s results matching your search."
+msgstr[0] "Vi fandt %s resultat, der matcher din søgning"
+msgstr[1] "Vi fandt %s resultater, der matcher din søgning"
+
+#. %s = the search query
+#: ../sullivan/search.php:18
+#, php-format
+msgctxt "Translators: %s = the search query"
+msgid "Search: %s"
+msgstr "Søgning: %s"
+
+#. %s = the search query
+#: ../sullivan/search.php:32
+#, php-format
+msgctxt "Translators: %s = the search query"
+msgid ""
+"We could not find any results for the search query \"%s\", but you can try a "
+"different one through the form below."
+msgstr ""
+"Vi kunne ikke finde noget resultat for søgningen \"%s\", men du kan prøve en "
+"anden søgning fra formen nedenunder."
+
+#: ../sullivan/functions.php:927
+msgid ""
+"We could not find anything that matches your search query. Please try again."
+msgstr ""
+"Ingen varer matcher din søgning. Kontrollér stavningen, eller prøv igen med "
+"et mindre specifikt søgeterm."
+
+#: ../sullivan/functions.php:315
+msgid ""
+"Widgets in this area will be shown in the first column in the footer. The "
+"\"Contact Information\" widget gets special styling treatment on mobile if "
+"it is placed here."
+msgstr ""
+
+#: ../sullivan/functions.php:336
+msgid "Widgets in this area will be shown in the fourth column in the footer."
+msgstr ""
+
+#: ../sullivan/functions.php:322
+msgid "Widgets in this area will be shown in the second column in the footer."
+msgstr ""
+
+#: ../sullivan/functions.php:342
+msgid ""
+"Widgets in this area will be shown in the sidebar on regular posts and pages."
+msgstr ""
+
+#: ../sullivan/functions.php:363
+msgid "Widgets in this area will be shown in the sidebar on shop pages."
+msgstr ""
+
+#: ../sullivan/functions.php:347
+msgid "Widgets in this area will be shown in the sidebar."
+msgstr ""
+
+#: ../sullivan/functions.php:329
+msgid "Widgets in this area will be shown in the third column in the footer."
+msgstr ""
+
+#: ../sullivan/functions.php:206
+msgid "WordPress.org plugin directory"
+msgstr ""
+
+#: ../sullivan/footer.php:49
+msgid "Y"
+msgstr ""
+
+#: ../sullivan/functions.php:767
+msgid "Year"
+msgstr "År"
+
+#: ../sullivan/functions-woocommerce.php:497
+msgid "Your order"
+msgstr "Din ordre"

@@ -1,0 +1,25 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css?family=Nunito|Alegreya');
+
+p, a, label {
+  font-family: 'Nunito', serif;
+}
+h1,h2,h3,h4,h5,h6,h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  font-family: "Nunito", serif;
+}
+
+%bread-text {
+  font-size: 12px;
+}
+
+%menu-text {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+%small-menu-text {
+  font-size: 14px!important;
+  text-transform: uppercase;
+
+}
+

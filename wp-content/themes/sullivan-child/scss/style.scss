@@ -1,0 +1,29 @@
+/* ALL */
+
+
+@import 'basic';
+@import 'colors';
+@import 'fonts';
+@import 'mixins';
+@import 'single-car';
+
+/* Hide menu home button on frontpage */
+
+.home #menu-item-77 {
+  display: none;
+}
+
+footer, .site-nav {
+  @extend %blue-bg-white-text;
+}
+.site-nav a {
+  @extend %menu-text;
+  padding: 5px 25px;
+}
+.site-header .section-inner {
+  padding: 0px 0;
+}
+
+
+
+

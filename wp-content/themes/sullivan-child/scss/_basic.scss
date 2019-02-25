@@ -1,0 +1,12 @@
+/* BASIC */
+
+/* Remove symbols in header for login in and cart */
+.header-account, .header-cart, .archive-header-tools, .header-inner  {
+  display: none;
+}
+
+
+#site-content {
+  padding: 29px 0;
+}
+
